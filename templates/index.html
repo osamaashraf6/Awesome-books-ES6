@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- start css file -->
+    <link rel="stylesheet" href="../static/css/index.css" />
+    <!-- end css file -->
+    <title>Awesome bookks</title>
+  </head>
+  <body>
+    <!-- start nav -->
+    <nav class="nav" id="nav">
+      <div class="container">
+        <div class="nav__container__parnav">
+          <div class="nav__container__parnav__brand">
+            <a href="#">Awesome Books</a>
+          </div>
+          <ul class="nav__container__parnav__ul">
+            <li id="list"><a href="#">List</a></li>
+            <li id="addNew"><a href="#">Add new</a></li>
+            <li id="contact"><a href="#">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- end nav -->
+    <!-- start time -->
+    <div class="time">
+      <div class="container">
+        <p id="timeText">octoper, 26th, 2022</p>
+      </div>
+    </div>
+    <!-- end time -->
+    <!-- start main -->
+    <main>
+      <!-- start section one -->
+      <section class="sectionone" id="sectionone">
+        <h1>Awesome Books</h1>
+        <div class="books-container"></div>
+      </section>
+      <!-- end section one -->
+      <!-- start section two -->
+      <section class="sectiontwo display" id="sectiontwo">
+        <div class="books-form">
+          <h1>Add a new book</h1>
+          <p class="message display">
+            Item added successfully,
+            <button type="button" id="seeList">click here to see</button
+            ><span id="close">&times;</span>
+          </p>
+          <form action="">
+            <input type="text" name="title" id="title" placeholder="Title" />
+            <br />
+            <input type="text" name="author" id="author" placeholder="Author" />
+            <br />
+            <input type="submit" value="Add" id="addButton" />
+          </form>
+        </div>
+      </section>
+      <!-- end section two -->
+      <!-- start section three -->
+      <section class="sectionthree display" id="sectionthree">
+        <h1>Contact Information</h1>
+        <p>
+          Do you have any questions or you just want to say "Hello" ?<br />
+          you can reach out to us!
+        </p>
+        <ul>
+          <li>Our email : name2example@gmail.com</li>
+          <li>Our phone number :0111111111</li>
+          <li>Our address :street name, country, district name</li>
+        </ul>
+      </section>
+      <!-- end section three -->
+    </main>
+    <!-- end main -->
+    <!-- start footer -->
+    <footer class="footer" id="footer">
+      <div class="container">
+        Copyright &copy; we use a policy to protect our Awesome books
+      </div>
+    </footer>
+    <!-- end footer -->
+    <!-- start js file -->
+    <script type="module" src="../modules/elements.js"></script>
+    <script type="module" src="../modules/booksclass.js"></script>
+    <script type="module" src="../static/js/index.js"></script>
+    <!-- end js file -->
+  </body>
+</html>
