@@ -1,0 +1,9 @@
+export const listLink = document.querySelector('#list');
+export const addNewLink = document.querySelector('#addNew');
+export const contactLink = document.querySelector('#contact');
+export const seeList = document.querySelector('#seeList');
+export const sectionOne = document.querySelector('#sectionone');
+export const sectionTwo = document.querySelector('#sectiontwo');
+export const sectionThree = document.querySelector('#sectionthree');
+export const close = document.querySelector('#close');
+export const message = document.querySelector('.message');
